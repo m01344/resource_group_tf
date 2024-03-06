@@ -7,7 +7,8 @@ resource "azurerm_resource_group" "rg" {
   location = var.location
 
   tags = {
-    environment = "dev",
-    cost-center = "central" 
+    Name = "rg"
+    env = "dev",
+    owner = "martin" 
   }
 }
