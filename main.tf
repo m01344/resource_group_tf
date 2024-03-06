@@ -8,6 +8,6 @@ resource "azurerm_resource_group" "rg" {
 
   tags = {
     environment = "dev",
-    cost-center" = "central"
+    cost-center = "central" 
   }
 }
