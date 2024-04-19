@@ -10,5 +10,6 @@ resource "azurerm_resource_group" "rg" {
     Name = "rg"
     env = "dev",
     owner = "martin" 
+    password = "psada123123asda"
   }
 }
